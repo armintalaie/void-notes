@@ -1,0 +1,17 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "dev": "deno run -A npm:vite",
+    "build": "deno run -A npm:typescript/bin/tsc -b && deno run -A npm:vite build",
+    "build:extension": "deno run -A npm:vite build --config vite.extension.config.ts",
+    "dev:extension": "deno run -A npm:vite build --config vite.extension.config.ts --watch",
+    "preview": "deno run -A npm:vite preview",
+    "lint": "deno task lint:deno && deno task lint:eslint",
+    "lint:deno": "deno lint",
+    "lint:eslint": "deno run -A npm:eslint .",
+    "fmt": "deno fmt",
+    "fmt:check": "deno fmt --check",
+    "check": "deno check src/main.tsx vite.config.ts && deno run -A npm:typescript/bin/tsc -b --noEmit",
+    "test": "deno test"
+  }
+}

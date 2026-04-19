@@ -1,0 +1,53 @@
+<svg
+  width="80"
+  height="80"
+  viewBox="0 0 80 80"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <rect x="0" y="0" width="80" height="80" rx="18" fill="#ffffff"></rect>
+  <line
+    x1="18"
+    y1="26"
+    x2="62"
+    y2="26"
+    stroke="#f15b50"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="1"
+  >
+  </line>
+  <line
+    x1="18"
+    y1="38"
+    x2="62"
+    y2="38"
+    stroke="#1a1714"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="0.85"
+  >
+  </line>
+  <line
+    x1="18"
+    y1="50"
+    x2="50"
+    y2="50"
+    stroke="#1a1714"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="0.45"
+  >
+  </line>
+  <line
+    x1="18"
+    y1="62"
+    x2="36"
+    y2="62"
+    stroke="#1a1714"
+    stroke-width="5"
+    stroke-linecap="round"
+    opacity="0.2"
+  >
+  </line>
+</svg>
